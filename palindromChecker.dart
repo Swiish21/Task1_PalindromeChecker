@@ -3,7 +3,7 @@ void main() {
   //below is a function delacred with a boolean as it is only required to return a true or false value
   bool isPalindromeNum(String input) {//the parameter input is a string
     if (input.isEmpty) { 
-      print('This is an empty string, which technically is a palindrome')// Check if the input string is empty, if empty it resturns true
+      print('This is an empty string, which technically is a palindrome');// Check if the input string is empty, if empty it resturns true
       return true; // Empty strings are considered palindromes
     }
 
